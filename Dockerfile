@@ -7,7 +7,7 @@ RUN apt update && \
     echo n | npm i -g @ionic/cli @angular/cli && \
     apt-get clean autoclean && \
     apt-get autoremove --yes && \
-    rm -rf /var/lib/{apt,dpkg,cache,log}/ && \
+    rm -rf /var/lib/{apt,dpkg,cache,log}/
 
 CMD ["sh"]
 
