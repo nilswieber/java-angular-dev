@@ -1,4 +1,4 @@
-FROM openjdk:17-slim-buster
+FROM openjdk:15-slim-buster
 
 RUN apt update && \
     apt install -y curl && \
